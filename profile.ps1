@@ -1,1 +1,0 @@
-C:/Users/tychen/Documents/WindowsPowerShell/PSProfile/Profile.ps1

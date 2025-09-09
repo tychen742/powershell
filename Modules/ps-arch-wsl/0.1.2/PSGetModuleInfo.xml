@@ -1,0 +1,137 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">ps-arch-wsl</S>
+      <Version N="Version">0.1.2</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Install Arch Linux on Windows the easy way.</S>
+      <S N="Author">Scott McKendry</S>
+      <S N="CompanyName">scottmckendry</S>
+      <S N="Copyright">(c) Scott McKendry. All rights reserved.</S>
+      <DT N="PublishedDate">2024-05-24T23:27:05-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2025-09-08T23:51:26.6469727-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://github.com/scottmckendry/ps-arch-wsl/blob/main/LICENSE</URI>
+      <URI N="ProjectUri">https://github.com/scottmckendry/ps-arch-wsl</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>PSModule</S>
+          <S>PSEdition_Desktop</S>
+          <S>PSEdition_Core</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Install-ArchWSL</S>
+                <S>Uninstall-ArchWSL</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Install-ArchWSL</S>
+                <S>Uninstall-ArchWSL</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <Nil N="ReleaseNotes" />
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="9">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">(c) Scott McKendry. All rights reserved.</S>
+          <S N="description">Install Arch Linux on Windows the easy way.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">2711</S>
+          <S N="downloadCount">2726</S>
+          <S N="packageSize">7174</S>
+          <S N="published">5/24/2024 11:27:05 PM -05:00</S>
+          <S N="created">5/24/2024 11:27:05 PM -05:00</S>
+          <S N="lastUpdated">9/8/2025 3:20:00 AM -05:00</S>
+          <S N="tags">PSModule PSEdition_Desktop PSEdition_Core PSFunction_Install-ArchWSL PSCommand_Install-ArchWSL PSFunction_Uninstall-ArchWSL PSCommand_Uninstall-ArchWSL PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2025-09-08T03:20:00Z</S>
+          <S N="NormalizedVersion">0.1.2</S>
+          <S N="Authors">Scott McKendry</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">ps-arch-wsl.nuspec|README.md|ps-arch-wsl.psd1|ps-arch-wsl.Tests.ps1|ps-arch-wsl.psm1</S>
+          <S N="GUID">1847ac9a-6150-4de1-9e6c-a4b454119a7a</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="CompanyName">www.scottmckendry.tech</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\tychen\Documents\PowerShell\Modules\ps-arch-wsl\0.1.2</S>
+    </MS>
+  </Obj>
+</Objs>

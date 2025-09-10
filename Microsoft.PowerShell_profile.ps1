@@ -143,3 +143,9 @@ function New-File {
     Write-Verbose "Creating new file '$Name'"
     New-Item -ItemType File -Name $Name -Path $PWD | Out-Null
 }
+
+########## end of Windots code ##########################################################
+
+
+########## oh-my-posh ##########################################################
+oh-my-posh init pwsh | Invoke-Expression

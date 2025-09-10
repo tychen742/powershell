@@ -148,4 +148,4 @@ function New-File {
 
 
 ########## oh-my-posh ##########################################################
-oh-my-posh init pwsh | Invoke-Expression
+# oh-my-posh init pwsh | Invoke-Expression

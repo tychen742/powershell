@@ -13,9 +13,7 @@ Set-Location C:\Users\tychen      ### powershell loads in user home
 
 Set-Alias "home" Switch-Home      ### home to cd ~
 Set-Alias "gitit" Sync-It         ### gitit to pull & push
-Set-Alias gs Git-Status           ### git status
 
-function Git-Status { git status }
 function Switch-Home { Set-Location $HOME }
 function Sync-It {
   git pull origin main

@@ -30,8 +30,8 @@ function Sync-It {
 
 # ######### venv code ############################################################
 Set-Alias "dsm" CDIntoDSM				                      ### create the alias dsm
-Set-Alias "venv" .\.venv\Scripts\activate	            ### activate venv
-Set-Alias "jn" JupyterNotebook                        ### start Jupyter Notebook
+Set-Alias "venv" .\.venv\Scripts\activate		### activate venv
+Set-Alias "j" JupyterNotebook				### start Jupyter Notebook
 
 # #### dsm: change directory to introdsm #####
 function CDIntoDSM { set-location ~\workspace\dsm\ }	### create the function
